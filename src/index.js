@@ -1,16 +1,35 @@
+import zrxContractAddresses from '@0x/contract-addresses'
+
+
+const uniswap = {
+  uniswapV2Factory: '0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f',
+  uniswapV2Router02: '0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D'
+}
+
+// 1 mainnet
+// 42 kovan
+// 7475 wapnet (CSSTestnet)
 export default {
   1: {
-    zrxERC20Proxy: '0x95e6f48254609a6ee006f7d493c8e5fb97094cef',
-    zrxToken: '0xe41d2489571d322189246dafa5ebde1f4699f498',
-    zrxStakingProxy: '0xa26e80e7dea86279c6d778d702cc413e6cffa777',
-    zrxStaking: '0x2a17c35ff147b32f13f19f2e311446eeb02503f3',
-    weth: '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2'
+    zrx: zrxContractAddresses[1],
+    uniswap
   },
   42: {
-    zrxERC20Proxy: '0xaa460127562482faa5df42f2c39a025cd4a1cc0a',
-    zrxToken: '0x2002d3812f58e35f0ea1ffbf80a75a38c32175fa',
-    zrxStakingProxy: '0xe94cb304b3f515be7c95fedcfa249a84995fd748',
-    zrxStaking: '0x73ea24041e03a012c51a45c307e0ba376af0238c',
-    weth: '0xd0a1e359811322d97991e03f863a0c30c2cf029c'
+    zrx: zrxContractAddresses[42],
+    uniswap
+  },
+  7475: {
+    uniswap: {
+      uniswapV1Exchange: '0xec16FDf36C412634996Ef7AcAF379c61068970Ca',
+      uniswapV1Factory: '0x190A7AC234472c94334516f51A6549aFAEC366F9',
+      uniswapV2Router02: '0x930Acbc372Bd73299Cd871AeFa610a93AE419573',
+      uniswapV2: '0x93aC90CEF71B46B6B8Cc810D3E825945c88F2C21'
+    },
+    zrx: {
+      stakingProxy: '0xD769A47cd943f78082eE4672cd2Bb1959C33fbBd',
+      staking: '0x83122e0C92A99074B77aA4797f0cd5F2252b866a',
+      zrxToken: '0x3ea3a770995Dc2439433fD994A58469868f6934c'
+    },
+    weth: '0x20B4F8ddAD0d2AeFF675ab3C61A469bAae0BbCC3'
   }
 }
