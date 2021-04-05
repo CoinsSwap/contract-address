@@ -20,16 +20,16 @@ export default {
   },
   7475: {
     uniswap: {
-      uniswapV1Exchange: '0xec16FDf36C412634996Ef7AcAF379c61068970Ca',
-      uniswapV1Factory: '0x190A7AC234472c94334516f51A6549aFAEC366F9',
-      uniswapV2Router02: '0x930Acbc372Bd73299Cd871AeFa610a93AE419573',
-      uniswapV2: '0x93aC90CEF71B46B6B8Cc810D3E825945c88F2C21'
+      uniswapV1Exchange: '0x9a256Dc79dc5f3aE303B453Dd19BfFc6c8aAaB94',
+      uniswapV1Factory: '0x41a7C7d0B37db9f141062414Cbc0Ba4bB6E8ac7e',
+      uniswapV2Router02: '0x147Ef17Df5204aC7E3193Eb49F2CEA75f9a3bE7B',
+      uniswapV2: '0xf53595F349Eb9ab2f3B09600618BAc92119Ba2cF',
     },
     zrx: {
-      stakingProxy: '0xD769A47cd943f78082eE4672cd2Bb1959C33fbBd',
-      staking: '0x83122e0C92A99074B77aA4797f0cd5F2252b866a',
-      zrxToken: '0x3ea3a770995Dc2439433fD994A58469868f6934c'
+      stakingProxy: '0xFf41bfb8289A655F9Afd10011D1D8178c77BE3f8',
+      staking: '0xd69BD7955fF5f8F304a2F5b225Cc158BC3e57C0a',
+      zrxToken: '0x0F48E776274fd3060b2D2998f9048dcAC43a1179'
     },
-    weth: '0x20B4F8ddAD0d2AeFF675ab3C61A469bAae0BbCC3'
+    weth: '0xA94365C1b9abAC2aBE959953155421A7C8fD3b12'
   }
 }
