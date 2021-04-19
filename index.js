@@ -25,9 +25,9 @@ module.exports = {
     zrx: {
       stakingProxy: '0xFf41bfb8289A655F9Afd10011D1D8178c77BE3f8',
       staking: '0xd69BD7955fF5f8F304a2F5b225Cc158BC3e57C0a',
-      zrxToken: '0xBc2967C107Dd9738b48523DEd108B1Fb7E51e300'
+      zrxToken: '0xdF0b61355d1dc4c11588Ea1214d34fE305225f1D'
     },
     cssToken: '0x29a969D4f6cd3C2A07a49d361FF705F11A1729E8',
-    weth: '0x41a7C7d0B37db9f141062414Cbc0Ba4bB6E8ac7e'
+    weth: '0xcA5c8A04C67b6E12da21619e4BFe45C7e75ea7F2'
   }
 }
