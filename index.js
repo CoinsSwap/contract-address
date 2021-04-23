@@ -11,11 +11,13 @@ const uniswap = {
 module.exports = {
   1: {
     zrx: zrxContractAddresses[1],
-    uniswap
+    uniswap,
+    weth: '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2'
   },
   42: {
     zrx: zrxContractAddresses[42],
-    uniswap
+    uniswap,
+    weth: '0xd0a1e359811322d97991e03f863a0c30c2cf029c'
   },
   7475: {
     uniswap: {
