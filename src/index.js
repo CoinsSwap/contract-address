@@ -22,7 +22,7 @@ export default {
   },
   7475: {
     uniswap: {
-      uniswapV2Router02: '0x5B576A652F70111EfA0eBFE1be0A0cC0501d8496',
+      uniswapV2Router02: '0xDe099453Af235226a89faE53A7991b0dbFEe21CA',
       uniswapV2Factory: '0x5249ef7bF26c73fdCF2C69F4c2943C6f81F0Af55',
     },
     zrx: {
