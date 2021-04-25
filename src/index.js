@@ -15,6 +15,11 @@ export default {
     uniswap,
     weth: '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2'
   },
+  3: {
+    zrx: zrxContractAddresses[3],
+    uniswap,
+    weth: '0x0a180a76e4466bf68a7f86fb029bed3cccfaaac5'
+  },
   42: {
     zrx: zrxContractAddresses[42],
     uniswap,
